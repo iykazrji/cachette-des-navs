@@ -1,0 +1,4 @@
+{
+	"comment": "Environment configuration for production instance",
+	"server_url": "http://yourcoolurl.com"
+}

@@ -1,0 +1,4 @@
+{
+	"comment": "Environment configuration for development instance",
+	"server_url": "http://localhost:3000"
+}

@@ -1,0 +1,17 @@
+.navbar-wrapper{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.navbar-component{
+	background-color: #000000;
+	height: 100px;
+	transition: all 0.4s ease-in;
+}
+.navbar-component.nav-visible{
+	transform: translateY(0px);
+}
+.navbar-component.nav-hidden{
+	transform: translateY(-100px);
+}
