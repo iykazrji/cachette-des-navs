@@ -5,13 +5,18 @@
 	width: 100%;
 }
 .navbar-component{
-	background-color: #000000;
+	background-color: #ffffff;
 	height: 100px;
 	transition: all 0.4s ease-in;
+	border-bottom: 1px solid rgba(20, 20, 20, 0.2);
 }
 .navbar-component.nav-visible{
 	transform: translateY(0px);
 }
 .navbar-component.nav-hidden{
 	transform: translateY(-100px);
+}
+.navbar-component__row-wrapper{
+	height: 100%;
+	display: none;
 }
